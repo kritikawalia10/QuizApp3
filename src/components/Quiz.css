@@ -1,0 +1,125 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 30%;
+    background-color: rgb(172, 101, 239);
+    width: 45%;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+.home{
+    text-align: center;
+    background-color: blueviolet;
+    height: 250px;
+    width: 600px;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding: 30px;
+}
+body{
+    margin: 10%;
+}
+.start{
+    background-color: rgb(30, 29, 29);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px;
+}
+.start:hover{
+    background-color: rgb(178, 241, 123);
+    color: black;
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px 2px;
+}
+.last, .quit, .next,.end{
+    background-color: rgb(30, 29, 29);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px;
+    margin: 4px;
+}
+.quit:hover{
+    background-color: rgb(244, 62, 62);
+    color: black;
+    transition: 0.5s;
+}
+.next:hover{
+    background-color: rgb(142, 233, 85);
+    color: black;
+    transition: 0.5s;
+}
+.end:hover{
+    background-color: rgb(240, 77, 221);
+    color: black;
+    transition: 0.5s;
+}
+.last:hover{
+    background-color: rgb(96, 172, 239);
+    color: black;
+    transition: 0.5s;
+}
+.option{
+    background-color: rgb(234, 231, 97);
+    line-height: 30px;
+    width: 300px;
+    margin-left: 15%;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.option:hover{
+    background-color: rgb(239, 149, 110);
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px 2px;
+    cursor: pointer;
+}
+h3{
+    text-shadow: 1px 1px black;
+}
+.contain{
+    text-align: center;
+    background-color: rgb(172, 101, 239);
+    height: 500px;
+    width: 600px;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 2px 2px;
+    
+}
+h4{
+    font-size: 17px;
+}
+h5{
+    font-size: 17px;
+}
+.again, .back{
+    background-color: rgb(106, 184, 33);
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 7px;
+    line-height: 25px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px;
+    width: 100px;
+}
+.back{
+    background-color: rgb(255, 0, 0);
+}
